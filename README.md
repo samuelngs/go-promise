@@ -61,7 +61,6 @@ func main() {
 ## Multiple arguments and returns
 ```go
 func main() {
-
 	t := promise.
 		New(func(resolve promise.Accept, reject promise.Decline) {
 			resolve(1)
